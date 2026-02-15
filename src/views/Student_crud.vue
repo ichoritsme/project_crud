@@ -161,7 +161,7 @@ export default {
       }
     };
 
-    // ✅ ลบนักเรียน
+    // ✅ ลบนักเรียนนน
     const deleteStudent = async (id) => {
       if (!confirm("คุณต้องการลบข้อมูลนี้ใช่หรือไม่?")) return;
       try {
